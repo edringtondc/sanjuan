@@ -1,11 +1,14 @@
 .logo {
-    width: 10%;
-    border: solid 1px gray;
+ height: 300px;
+ padding-top: 5rem;
     
 }
 
 .main {
     background-attachment: url("/assets/images/Maroonbells.png");
     width: 100%;
-    background-color: green;
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+    border-bottom: solid 4px pink;
+    height: 500px;
 }

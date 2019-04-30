@@ -1,6 +1,10 @@
 
 .about {
     background-color: black;
-    color: green;
+    color: white;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem;
+
 }
 

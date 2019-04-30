@@ -1,0 +1,11 @@
+.team {
+    background-color: papayawhip;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    text-align: center
+}
+
