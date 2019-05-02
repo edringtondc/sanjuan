@@ -5,6 +5,10 @@ import Main from "../Main/Main"
 import Toolbar from "../Navigation/Toolbar/Toolbar"
 import Team from "../Team/Team"
 import FeaturedServices from "../FeaturedServices/FeaturedServices"
+import Testimonials from "../Testimonials/Testimonials"
+import Visit from "../Visit/Visit"
+import Footer from "../Footer/Footer"
+
 
 // import classes from "./Layout.css"
 
@@ -19,13 +23,11 @@ class Layout extends Component {
                 <Main/>
                 <About/>
                 <Team/>
-                <div>Schedule an appointment</div>
                 <FeaturedServices/>
-                <div>Testimonials</div>
+                <Testimonials/>
                 <div>Rates</div>
-                <div>Location</div>
-                <div>Contact</div>
-                <div>Footer</div>
+                <Visit />
+                <Footer/>
 
 
             </Aux>

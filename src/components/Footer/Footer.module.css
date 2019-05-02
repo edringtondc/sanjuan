@@ -1,0 +1,15 @@
+.footer {
+    background-color: purple;
+    height: 400px;
+    color: white;
+}
+
+@media(min-width: 640px) {
+    .footer {
+        background-color: orange;
+        display: flex;
+        
+    }
+
+
+}

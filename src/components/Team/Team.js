@@ -5,33 +5,57 @@ import Aux from "../../hoc/Aux/Aux"
 
 const team = () => {
     const teamData = [
+        {   
+            headline: "Dr. Darrin",
+            provider: "Darrin Robertson, D.C., C.C.S.P.",
+            title: "San Juan Chiropractic, LLC, owner"
+        },
+
         {
-            provider: "Dr. Tori",
-            title: "Chiropractor",
-            about: "laksdjflaksjdf alsdjflaksdjf laksd faskdjflaksjd flaksjdf alksjdf lkasjdflkasdjf lasjdf"
+            headline: "Dr. Tori",
+            provider: "Victoria Bourgeois Stegmann, D.C., CAc",
+            title: "Back to Balance, LLC, owner"
         },
         {
-            provider: "Dr. Darrin",
-            title: "Chiropractor",
-            about: "laksdjflaksjdf alsdjflaksdjf laksd faskdjflaksjd flaksjdf alksjdf lkasjdflkasdjf lasjdf"
+            headline: "Dr. Mandy",
+            title: "Chiropractor"
         },
         {
-            provider: "Dr. Mandy",
-            title: "Chiropractor",
-            about: "laksdjflaksjdf alsdjflaksdjf laksd faskdjflaksjd flaksjdf alksjdf lkasjdflkasdjf lasjdf"
+            headline: "Dr. Drew",
+            title: "Chiropractor"
+        },
+        {
+            headline: "Ted",
+            title: "NCTMB"
+        },
+        {
+            headline: "Michaela",
+            title: "Massage Therapy"
+        },
+        {
+            headline: "Porsche",
+            title: "BioFeedback"
         },
     ]
 
     return (
 
-        <container className={classes.team}>
-       
-                {teamData.map(member => {
-                    return <TeamMember provider={member.provider} title={member.title} about={member.about} key={member.provider} />
 
-                })}
-          
-        </container>
+
+        <div className={classes.teamblock} >
+
+            <h2 className={classes.headline}>Meet the Team</h2>
+            <div className={classes.team}>  
+                {teamData.map(member => {
+                return <TeamMember provider={member.provider} title={member.title} about={member.about} key={member.provider} />
+
+            })}
+            </div>
+
+
+
+
+        </div>
     )
 }
 

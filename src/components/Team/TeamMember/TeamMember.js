@@ -6,9 +6,6 @@ import classes from "./teamMember.module.css"
 const teamMember = props => {
     return (
    
-
-
-
         <div className={classes.member}>
             <h3>{props.provider}</h3>
             <h4>{props.title}</h4>
