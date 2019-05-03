@@ -8,6 +8,7 @@ const main = () => {
             <div className={classes.logo}>
                 <Logo />
             </div>
+            <h1 className={classes.title}> San Juan Chiropractic </h1>
         </div>
     )
 }

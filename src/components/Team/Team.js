@@ -45,6 +45,7 @@ const team = () => {
         <div className={classes.teamblock} >
 
             <h2 className={classes.headline}>Meet the Team</h2>
+            
             <div className={classes.team}>  
                 {teamData.map(member => {
                 return <TeamMember provider={member.provider} title={member.title} about={member.about} key={member.provider} />

@@ -8,15 +8,7 @@ const visit = () => {
         <div className={classes.visit}>
         <div className={classes.map}>  <img src={Map} className={classes.map}></img> </div>
       
-       <div className={classes.info}><ul>Hours
-           <li>MON</li>
-           <li>Tues</li>
-           <li>Weds</li>
-           <li>Thurs</li>
-           <li>Friday</li>
-           <li>Saturday</li>
-
-       </ul></div>
+     
        
     </div>
     )

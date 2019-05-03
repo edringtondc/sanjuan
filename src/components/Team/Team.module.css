@@ -1,34 +1,25 @@
-
-   .teamblock {
+.teamblock {
     background: url("../../assets/images/Maroonbells.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  
-    
     color: white;
     width: 100%;
     /* background-color: rgba(0,0,0,0.2); */
     text-align: center;
-    border-bottom: solid 4px pink;
     height: auto;
-
 }
 
+.team {
+    display: flex;
+}
 
-    .team {
-        display: flex;
-    }
+.headline {
+    text-align: center;
+    color: orange;
+}
 
-    .headline {
-        text-align: center;
-        color: orange;
-    }
-    
-    .title {
-        text-align: center
-    }
-
-
-
+.title {
+    text-align: center
+}
