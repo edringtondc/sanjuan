@@ -1,10 +1,10 @@
 import React from "react"
 import classes from "./ServiceItem.module.css"
 
-const serviceItem = () => {
+const serviceItem = (props) => {
     return (
         <div className={classes.Service}>
-           Service Item
+            {props.title}
         </div>
     )
 }
