@@ -1,0 +1,12 @@
+.featured {
+    display: flex;
+    background-color: lightcoral;
+    justify-content: space-around;
+    height: auto;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
+

@@ -5,11 +5,9 @@ import NavigationItem from "./NavigationItem/NavigationItem"
 const navigationItems =()=>(
 <ul className={classes.NavigationItems}>
     <NavigationItem link="/" active>Welcome</NavigationItem>
-    <NavigationItem link="/">About Us</NavigationItem>
-    <NavigationItem link="/">New Patients</NavigationItem>
-    <NavigationItem link="/">Featured Services</NavigationItem>
+    <NavigationItem link="/">Main Menu</NavigationItem>
+    <NavigationItem link="/">Schedule Now</NavigationItem>
     <NavigationItem link="/">Testimonials</NavigationItem>
-    <NavigationItem link="/">Rates</NavigationItem>
     <NavigationItem link="/">Location</NavigationItem>
     <NavigationItem link="/">Contact</NavigationItem>
 
