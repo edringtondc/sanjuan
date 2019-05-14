@@ -1,12 +1,27 @@
-.featured {
+.scheduleBlock {
+    background: url("../../assets/images/front.webp") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    /* background-color: rgba(0,0,0,0.2); */
+    text-align: center;
+    height: 400px;
     display: flex;
-    background-color: lightcoral;
-    justify-content: space-around;
-    height: auto;
+    
 }
 
-img {
+/* img {
     height: 300px;
     width: auto;
-}
+} */
 
+.textBlock {
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    
+
+}

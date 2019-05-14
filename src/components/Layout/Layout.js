@@ -23,8 +23,8 @@ class Layout extends Component {
                 <Toolbar/>
                 <Main/>
                 <About/>
-                <MainMenu/>
                 <ScheduleNow/>
+                <MainMenu/>
                 <Testimonials/>
                 <Visit />
                 <Footer/>

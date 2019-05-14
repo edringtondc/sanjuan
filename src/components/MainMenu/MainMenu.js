@@ -2,10 +2,18 @@ import React from "react";
 import MenuItems from "./MenuItems/MenuItems"
 import classes from "./mainMenu.module.css"
 import Aux from "../../hoc/Aux/Aux"
+import teamIcon from "../../assets/icons/team.png"
+import spaIcon from "../../assets/icons/spa.png"
+import carIcon from "../../assets/icons/car-collision.png"
+
+
+
+
+
 
 const team = () => {
     const teamData = [
-        {   
+        {
             headline: "Dr. Darrin",
             provider: "Darrin Robertson, D.C., C.C.S.P.",
             title: "San Juan Chiropractic, LLC, owner"
@@ -44,16 +52,9 @@ const team = () => {
 
         <div className={classes.menuBlock} >
 
-            <h2 className={classes.headline}>Main Menu</h2>
-            
-          <MenuItems item="Team Members"/>
-          <MenuItems item="Treatments"/>
-          <MenuItems item="Auto Accidents"/>
-          <MenuItems item="Rates"/>
-
-
-
-
+            <MenuItems item="Team Members" icon={teamIcon} />
+            <MenuItems item="Treatments"  icon={spaIcon}/>
+            <MenuItems item="Auto Accidents" icon={carIcon}/>
 
         </div>
     )
