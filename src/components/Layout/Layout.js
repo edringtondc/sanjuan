@@ -21,6 +21,8 @@ class Layout extends Component {
         return (
             <Aux>
                 <Toolbar/>
+
+            
                 <Main/>
                 <MainMenu/>
                 <ScheduleNow/>
