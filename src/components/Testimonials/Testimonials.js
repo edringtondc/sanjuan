@@ -7,8 +7,10 @@ const testimonials = () => {
 
         <div className={classes.testimonials}>
             <h3>Testimonials</h3>
-            <TestimonialCarousel/>
-          
+            <div className={classes.Carousel}>
+                <TestimonialCarousel />
+            </div>
+
         </div>
     )
 }

@@ -22,10 +22,11 @@ class Layout extends Component {
             <Aux>
                 <Toolbar/>
                 <Main/>
-                <About/>
-                <ScheduleNow/>
                 <MainMenu/>
+                <ScheduleNow/>
                 <Testimonials/>
+                <About/>
+      
                 <Visit />
                 <Footer/>
 

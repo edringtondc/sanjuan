@@ -1,16 +1,21 @@
 
 .testimonials {
-    background: url("../../assets/images/Maroonbells.png") no-repeat center center fixed;
+    /* background: url("../../assets/images/Maroonbells.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  
+   */
 
     width: 100%;
-    /* background-color: rgba(0,0,0,0.2); */
+    background-color: rgba(0,0,0,0.2);
     text-align: center;
     border-bottom: solid 4px pink;
     height: 500px;
 
+}
+
+.Carousel {
+    padding: 2rem;
+    height: 400px;
 }
