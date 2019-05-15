@@ -6,12 +6,13 @@
     background-size: cover; */
     background-color: #485daa;
     color: white;
-    width: 100%;
+    width: auto;
     /* background-color: rgba(0,0,0,0.2); */
     text-align: center;
-    height: 400px;
+    height: auto;
     display: flex;
     justify-content: space-around;
+    padding: 3rem;
 
 }
 

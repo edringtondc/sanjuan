@@ -20,8 +20,13 @@
     
 
     width: 100%;
-    /* background-color: rgba(0,0,0,0.2); */
+ 
     text-align: center;
-    border-bottom: solid 4px pink;
+    border-bottom: solid 4px;
   
+}
+
+.Wrapper {
+    background-color: rgba(0,0,0,0.2);
+    padding: 2rem;
 }

@@ -27,9 +27,10 @@ class Layout extends Component {
                 <MainMenu/>
                 <ScheduleNow/>
                 <Testimonials/>
+                <Visit />
                 <About/>
       
-                <Visit />
+              
                 <Footer/>
 
 
