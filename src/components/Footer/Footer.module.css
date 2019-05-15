@@ -1,0 +1,17 @@
+.footer {
+    background-color: purple;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* @media(min-width: 640px) {
+    .footer {
+        background-color: orange;
+        display: flex;
+        
+    }
+
+
+} */

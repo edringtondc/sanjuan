@@ -1,0 +1,30 @@
+.menuBlock {
+    /* background: url("../../assets/images/Maroonbells.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    background-color: #485daa;
+    color: white;
+    width: auto;
+    /* background-color: rgba(0,0,0,0.2); */
+    text-align: center;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+
+}
+
+.team {
+    display: flex;
+}
+
+.headline {
+    text-align: center;
+    color: orange;
+}
+
+.title {
+    text-align: center
+}

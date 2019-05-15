@@ -1,0 +1,32 @@
+.logo {
+ height: 300px;
+ padding-top: 5rem;
+    
+}
+
+.title {
+    font-size: 60px;
+    color: #485daa;
+}
+
+.main {
+    background: url("../../assets/images/Maroonbells.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+  
+    
+
+    width: 100%;
+ 
+    text-align: center;
+    border-bottom: solid 4px;
+  
+}
+
+.Wrapper {
+    background-color: rgba(0,0,0,0.2);
+    padding: 2rem;
+}
