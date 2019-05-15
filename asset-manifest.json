@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sanjuan/static/css/main.ba5cf9f6.chunk.css",
+    "main.js": "/sanjuan/static/js/main.4e30a530.chunk.js",
+    "main.js.map": "/sanjuan/static/js/main.4e30a530.chunk.js.map",
+    "runtime~main.js": "/sanjuan/static/js/runtime~main.36b31988.js",
+    "runtime~main.js.map": "/sanjuan/static/js/runtime~main.36b31988.js.map",
+    "static/js/2.b41502e9.chunk.js": "/sanjuan/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/sanjuan/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/sanjuan/index.html",
+    "precache-manifest.d23703f8f46618c04fa707f5674f0dc5.js": "/sanjuan/precache-manifest.d23703f8f46618c04fa707f5674f0dc5.js",
+    "service-worker.js": "/sanjuan/service-worker.js",
+    "static/css/main.ba5cf9f6.chunk.css.map": "/sanjuan/static/css/main.ba5cf9f6.chunk.css.map",
+    "static/media/logo.svg": "/sanjuan/static/media/logo.5d5d9eef.svg"
+  }
+}
