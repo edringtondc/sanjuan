@@ -1,10 +1,11 @@
 {
   "name": "sanjuan-chiro",
   "version": "0.1.0",
-  "homepage":"https://edringtondc.github.io/sanjuan",
+  "homepage": "https://edringtondc.github.io/sanjuan/",
   "private": true,
   "dependencies": {
     "css-modules": "^0.3.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-carousel": "^4.3.0",
     "react-dom": "^16.8.6",
