@@ -74,21 +74,18 @@
         
     
     }
-    .info, ul {
+    .hours {
         list-style-type: none;
         text-align: center;
        
     }
 
-    h3 {
+    .hoursTitle {
   
         font-size: x-large;
         margin-top: 0;
     }
-    h1 {
-        font-size: xx-large;
-       
-    }
+  
     
     /* img {
         height: 300px;

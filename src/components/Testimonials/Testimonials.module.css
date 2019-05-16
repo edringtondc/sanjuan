@@ -8,7 +8,6 @@
     width: 100%;
     text-align: center;
     border-bottom: solid 4px;
-
     padding: 1rem;
     
 
@@ -16,8 +15,8 @@
 }
 
 .Title {
-    font-size: 2.0em;
-    color: white;
+    font-size: -webkit-xxx-large;
+    color: #286933;
 }
 
 .Carousel {

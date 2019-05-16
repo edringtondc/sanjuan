@@ -1,7 +1,7 @@
 .Quote {
     color: white;
     text-align: center;
-    font-size: 2.5em;
+    font-size: x-large;
     font-family: Papyrus,fantasy; 
 
 }
@@ -14,6 +14,6 @@
 .Patient {
     color: white;
     text-align: center;
-    font-size: 2.5em;
+    font-size: medium;
     font-family: Papyrus,fantasy; 
 }
