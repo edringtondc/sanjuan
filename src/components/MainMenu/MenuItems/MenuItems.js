@@ -8,7 +8,7 @@ const menuItem = props => {
     return (
    
         <div className={classes.item}>
-           <img className={classes.Icon} src={props.icon} alt={props.item}/>
+          <a href="/"><img className={classes.Icon} src={props.icon} alt={props.item}/></a> 
             <p> {props.item}</p> 
         </div>
     )
