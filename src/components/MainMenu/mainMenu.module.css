@@ -1,19 +1,28 @@
 .menuBlock {
     /* background: url("../../assets/images/Maroonbells.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
-    background-color: #485daa;
-    color: white;
-    width: auto;
-    /* background-color: rgba(0,0,0,0.2); */
-    text-align: center;
-    height: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;  */
+    background-color: #286933;
+    /* opacity: 0.7; */
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    padding: 3rem;
+    align-items: center;
+   
+ 
 
+}
+
+.wrapper {
+       
+    background-color: #286933;
+    color: white;
+    /* background-color: rgba(0,0,0,0.2); */
+    text-align: center;
+    min-height: 500px;
+ 
 }
 
 .team {
@@ -28,3 +37,4 @@
 .title {
     text-align: center
 }
+

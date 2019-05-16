@@ -6,7 +6,7 @@ const testimonials = () => {
     return (
 
         <div className={classes.testimonials}>
-            <h3 className={classes.Title}>Client Testimonials</h3>
+            <h3 className={classes.Title}>Words From Our Clients!</h3>
             <div className={classes.Carousel}>
                 <TestimonialCarousel />
             </div>

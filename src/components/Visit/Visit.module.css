@@ -1,22 +1,61 @@
 
-
-
-@media(min-width: 500px){
-    .visit {
-        background-color: #485daa;
+    .wrapper {
+        background: url("../../assets/images/mountains.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        color: white;
+        width: 100%;
+        /* background-color: rgba(0,0,0,0.2); */
+        text-align: center;
+        height: auto;
         display: flex;
-        justify-content: space-evenly;
+   
+     
+        
+    }
+    .empty {
+        width: 50%;
+    }
+
+
+    .visit {
+        background-color: #286933;
         padding: 1rem;
+        width: 50%;
+        text-align: center;
+        
+    }
+    .hours {
+        list-style-type: none;
+        text-align: center;
+       
+    }
+
+    .hoursTitle {
+  
+        font-size: x-large;
+        margin-top: 0;
+    }
+  
+    
+    /* img {
+        height: 300px;
+        width: auto;
+    } */
+    
+    .textBlock {
+        width: 90%;
+        background-color: rgba(0,0,0,0.4);
+        padding: 3rem 3rem;
+       
+        
+    
     }
     
-    .map {
-        background-color: grey;
-        width: 400px;
+    .iframe {
+        width: 600px;
+        height: 450px;
+        border: 0;
     }
-
-    .info{
-        background-color: gray;
-        width: 300px;
-        height: 250px;
-    }
-}

@@ -11,8 +11,8 @@ const form = () => {
           <label for="lname">Last Name</label>
           <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
       
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
+          <label for="lname">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email.."/>
 
         <label for="message">Message</label>
           <textarea id="message" name="message" row="30" column="100" placeholder="Enter Message Here..." /> 
