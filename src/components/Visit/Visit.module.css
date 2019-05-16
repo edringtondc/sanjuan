@@ -70,9 +70,6 @@
         width: 50%;
         text-align: center;
         
-        
-        
-    
     }
     .hours {
         list-style-type: none;
@@ -93,9 +90,10 @@
     } */
     
     .textBlock {
-        width: 50%;
+        width: 90%;
         background-color: rgba(0,0,0,0.4);
         padding: 3rem 3rem;
+       
         
     
     }

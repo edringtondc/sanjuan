@@ -8,8 +8,8 @@ const Contact = () => {
     <div className={classes.scheduleBlock}>
 
       <div className={classes.textBlock}>
-      <h1>Contact Us</h1>
-      <Form/>
+     
+        <Form/>
         
      
       </div>
