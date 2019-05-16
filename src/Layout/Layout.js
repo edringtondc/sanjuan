@@ -1,6 +1,6 @@
 import React, {Component } from "react";
 import Aux from "../hoc/Aux/Aux"
-import About from "../components/About/About"
+import Contact from "../components/Contact/Contact"
 import Main from "../components/Main/Main"
 import Toolbar from "../components/Navigation/Toolbar/Toolbar"
 import Team from "../components/Team/Team"
@@ -28,7 +28,7 @@ class Layout extends Component {
                 <ScheduleNow/>
                 <Testimonials/>
                 <Visit />
-                <About/>
+                <Contact/>
       
               
                 <Footer/>

@@ -1,8 +1,8 @@
 import React from "react"
-import classes from "./about.module.css"
+import classes from "./contact.module.css"
 import Form from "../Form/Form"
 
-const ScheduleNow = () => {
+const Contact = () => {
 
   return (
     <div className={classes.scheduleBlock}>
@@ -23,4 +23,4 @@ const ScheduleNow = () => {
   )
 }
 
-export default ScheduleNow;
+export default Contact;
