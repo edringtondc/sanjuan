@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/sanjuan/static/css/main.e3e07f74.chunk.css",
-    "main.js": "/sanjuan/static/js/main.f5bcf3ee.chunk.js",
-    "main.js.map": "/sanjuan/static/js/main.f5bcf3ee.chunk.js.map",
+    "main.css": "/sanjuan/static/css/main.0787497a.chunk.css",
+    "main.js": "/sanjuan/static/js/main.01865372.chunk.js",
+    "main.js.map": "/sanjuan/static/js/main.01865372.chunk.js.map",
     "runtime~main.js": "/sanjuan/static/js/runtime~main.36b31988.js",
     "runtime~main.js.map": "/sanjuan/static/js/runtime~main.36b31988.js.map",
-    "static/js/2.45a17288.chunk.js": "/sanjuan/static/js/2.45a17288.chunk.js",
-    "static/js/2.45a17288.chunk.js.map": "/sanjuan/static/js/2.45a17288.chunk.js.map",
+    "static/js/2.61739271.chunk.js": "/sanjuan/static/js/2.61739271.chunk.js",
+    "static/js/2.61739271.chunk.js.map": "/sanjuan/static/js/2.61739271.chunk.js.map",
     "index.html": "/sanjuan/index.html",
-    "precache-manifest.79874a800647aebc9f509419eed9ae21.js": "/sanjuan/precache-manifest.79874a800647aebc9f509419eed9ae21.js",
+    "precache-manifest.d82e608c924f6ff4a6ac8b120c6e0707.js": "/sanjuan/precache-manifest.d82e608c924f6ff4a6ac8b120c6e0707.js",
     "service-worker.js": "/sanjuan/service-worker.js",
-    "static/css/main.e3e07f74.chunk.css.map": "/sanjuan/static/css/main.e3e07f74.chunk.css.map",
-    "static/media/Testimonials.module.css": "/sanjuan/static/media/Maroonbells.0e60a1eb.png",
-    "static/media/car-collision.png": "/sanjuan/static/media/car-collision.27ff13e5.png",
-    "static/media/ScheduleNow.module.css": "/sanjuan/static/media/front.336338e8.webp",
-    "static/media/google.png": "/sanjuan/static/media/google.049d9973.png",
+    "static/css/main.0787497a.chunk.css.map": "/sanjuan/static/css/main.0787497a.chunk.css.map",
+    "static/media/SJCMap.png": "/sanjuan/static/media/SJCMap.8f76ed6c.png",
+    "static/media/balancerocks.jpg": "/sanjuan/static/media/balancerocks.7f0970f4.jpg",
+    "static/media/car-collision-white.png": "/sanjuan/static/media/car-collision-white.f14034c8.png",
+    "static/media/contact.module.css": "/sanjuan/static/media/forest.e4f75cba.jpg",
+    "static/media/ScheduleNow.module.css": "/sanjuan/static/media/massageback.883d1a35.jpg",
+    "static/media/Visit.module.css": "/sanjuan/static/media/mountains.38cd0a3b.jpg",
     "static/media/sanjuan-final.png": "/sanjuan/static/media/sanjuan-final.93142de7.png",
-    "static/media/spa.png": "/sanjuan/static/media/spa.92bafd7f.png",
-    "static/media/team.png": "/sanjuan/static/media/team.1c325490.png"
+    "static/media/spa-white.png": "/sanjuan/static/media/spa-white.4288b4b0.png",
+    "static/media/team-white.png": "/sanjuan/static/media/team-white.9c6d233e.png",
+    "static/media/Testimonials.module.css": "/sanjuan/static/media/yogapier.a64d715a.jpg"
   }
 }
