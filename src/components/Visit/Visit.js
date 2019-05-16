@@ -1,22 +1,22 @@
 import React from "react";
 import classes from "./Visit.module.css"
 import Map from "../../assets/images/SJCMap.png"
+import Balance from "../../assets/images/balancerocks.jpg"
 
 const visit = () => {
 
     return (
+
+     
+
         <div className={classes.wrapper}>
-            <h1>
-                Visit Us
-            </h1>
+            <div className={classes.empty}>
+
+            </div>
+
             <div className={classes.visit}>
 
-                <div className={classes.map}>
-                    <a href="https://www.google.com/maps/place/San+Juan+Chiropractic/@38.470593,-107.8709987,15z/data=!4m5!3m4!1s0x0:0x5c28b59f1de75013!8m2!3d38.470592!4d-107.870983"
-                        target="_blank" rel="noopener noreferrer" >
-                        <img src={Map} className={classes.map} alt="map of SJC" />
-                    </a>
-                </div>
+             
                 <div className={classes.info}>
 
                 <h3>Wellness Center Hours</h3>
@@ -40,6 +40,12 @@ const visit = () => {
                             Saturday (F/L): 9:00am - 11:00pm
                     </li>
                     </ul>
+                </div>
+                <div className={classes.map}>
+                    <a href="https://www.google.com/maps/place/San+Juan+Chiropractic/@38.470593,-107.8709987,15z/data=!4m5!3m4!1s0x0:0x5c28b59f1de75013!8m2!3d38.470592!4d-107.870983"
+                        target="_blank" rel="noopener noreferrer" >
+                        <img src={Map} className={classes.map} alt="map of SJC" />
+                    </a>
                 </div>
             </div>
         </div>
