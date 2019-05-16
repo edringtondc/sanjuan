@@ -57,12 +57,7 @@
     .empty {
         width: 50%;
     }
-    .map {
-     
-        width: 400px;
-       
-        margin: 0 auto;
-    }
+
 
     .visit {
         background-color: #286933;
@@ -98,3 +93,8 @@
     
     }
     
+    .iframe {
+        width: 600px;
+        height: 450px;
+        border: 0;
+    }

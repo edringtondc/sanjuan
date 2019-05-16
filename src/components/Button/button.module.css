@@ -1,8 +1,21 @@
 .button {
-    background-color: #485daa;
-    color: white;
-    border-radius: 0.5px;
-    height: 25px;
-    width: 200px;
+    width: 50%;
+    background-color: #4054a5;
 
-}
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+
+  }
+  
+  .button:hover {
+    background-color: #6a83e6;
+
+ 
+  }
+
