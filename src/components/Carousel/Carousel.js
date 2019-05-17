@@ -1,6 +1,5 @@
 import React, {Component}from "react";
 import Slider from "react-slick";
-import image1 from "../../assets/images/neck.jpeg";
 import classes from "./carousel.module.css";
 
 class TestimonialCarousel extends Component {

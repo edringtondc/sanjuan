@@ -30,7 +30,11 @@
     .hours {
         list-style-type: none;
         text-align: center;
+        padding: 0;
        
+    }
+    .phone {
+        font-size: large;
     }
 
     .hoursTitle {
@@ -39,11 +43,10 @@
         margin-top: 0;
     }
   
-    
-    /* img {
-        height: 300px;
-        width: auto;
-    } */
+    .info {
+        text-align: center;
+    }
+  
     
     .textBlock {
         width: 90%;
@@ -55,7 +58,7 @@
     }
     
     .iframe {
-        width: 600px;
-        height: 450px;
+        max-width: 800px;
+        max-heigh: 300px;
         border: 0;
     }

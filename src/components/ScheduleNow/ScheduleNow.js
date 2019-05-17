@@ -1,6 +1,5 @@
 import React from "react"
 import classes from "./ScheduleNow.module.css"
-import picture from "../../assets/images/neck.jpeg"
 import Button from "../Button/Button"
 
 const ScheduleNow = () => {
