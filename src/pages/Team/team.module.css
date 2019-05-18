@@ -1,0 +1,13 @@
+.Team {
+   
+        background: url("../../assets/images/runnerpath.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        color: black;
+        width: 100%;
+        padding: 2rem;
+        
+     
+}

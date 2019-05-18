@@ -1,24 +1,28 @@
-import React from "react"
+import React from "react";
+import {Link} from "react-router-dom";
 import classes from "./Toolbar.module.css"
 import Logo from "../../Logo/Logo"
 import NavigationItems from "../NavigationItems/NavigationItems"
 // import DrawerToggle from "../SideDrawer/DrawerToggle/DrawerToggle"
 
-const toolbar = (props) => (
 
+const toolbar = (props) => {
+    return (
+        <div>
 
-    <header className={classes.Toolbar}>
+            <header className={classes.Toolbar}>
 
-        
+                <div className={classes.Logo}>
+                    <Logo />
+                </div>
 
-        <div className={classes.Logo}>
-            <Logo/>
+                <nav className={classes.DesktopOnly}>
+                    <NavigationItems />
+                </nav>
+            </header>
         </div>
+    )
 
-        <nav className={classes.DesktopOnly}>
-            <NavigationItems />
-        </nav>
-    </header>
-)
+}
 
 export default toolbar;
