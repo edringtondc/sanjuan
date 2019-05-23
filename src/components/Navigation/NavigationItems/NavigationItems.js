@@ -5,7 +5,7 @@ import NavigationItem from "./NavigationItem/NavigationItem"
 const navigationItems =()=>(
 <ul className={classes.NavigationItems}>
     <NavigationItem link="/Home" active>Home</NavigationItem>
-    <NavigationItem link="/Team">Team</NavigationItem>
+    <NavigationItem link="/Team">Our Practitioners</NavigationItem>
     <NavigationItem link="/Treatments">Treatments</NavigationItem>
     {/* <NavigationItem link="/">Testimonials</NavigationItem>
     <NavigationItem link="/">Location</NavigationItem>

@@ -5,16 +5,15 @@ import Form from "../Form/Form"
 const footer = () => {
     return (
         <footer className={classes.footer}>
-      
-            <div className={classes.info}><ul>Hours
-           <li>MON</li>
-                <li>Tues</li>
-                <li>Weds</li>
-                <li>Thurs</li>
-                <li>Friday</li>
-                <li>Saturday</li>
 
-            </ul></div>
+            <div className={classes.info}>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Home</li>
+                    <li>Locations</li>
+
+                </ul></div>
 
 
         </footer>

@@ -6,7 +6,9 @@ const Team = () => {
     return (
         <div>
             <div className={classes.Team}>
-                <h3>Team</h3>
+            <div className={classes.Banner}> 
+                <h1>Our Practitioners</h1>
+            </div>
                 <TeamMember />
                 <TeamMember />
                 <TeamMember />
