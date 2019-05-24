@@ -1,31 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1643ce2a3fad3110632ec0d77e1a90aa",
+    "revision": "0c1571c8cf8236e172b1910075ac7b5c",
     "url": "/sanjuan/index.html"
   },
   {
-    "revision": "277f04ceeddef720ad1d",
-    "url": "/sanjuan/static/css/main.0787497a.chunk.css"
+    "revision": "e6403c56655d95f95407",
+    "url": "/sanjuan/static/css/main.2d389eb4.chunk.css"
   },
   {
-    "revision": "49ff67d6ac41c6f3eb6f",
-    "url": "/sanjuan/static/js/2.61739271.chunk.js"
+    "revision": "a970183c241359272076",
+    "url": "/sanjuan/static/js/2.aced3676.chunk.js"
   },
   {
-    "revision": "277f04ceeddef720ad1d",
-    "url": "/sanjuan/static/js/main.01865372.chunk.js"
+    "revision": "e6403c56655d95f95407",
+    "url": "/sanjuan/static/js/main.b32f1dbf.chunk.js"
   },
   {
     "revision": "834793259c5a07136583",
     "url": "/sanjuan/static/js/runtime~main.36b31988.js"
-  },
-  {
-    "revision": "8f76ed6cf0542ce0e8f2cafe01c293d2",
-    "url": "/sanjuan/static/media/SJCMap.8f76ed6c.png"
-  },
-  {
-    "revision": "7f0970f4d254399b29939933288b4501",
-    "url": "/sanjuan/static/media/balancerocks.7f0970f4.jpg"
   },
   {
     "revision": "f14034c86cdfd88e237b19eb2ede0388",
@@ -42,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "38cd0a3b3407304acb54248b1b638ce2",
     "url": "/sanjuan/static/media/mountains.38cd0a3b.jpg"
+  },
+  {
+    "revision": "02cd01fce6d6bb3131f05bdc01669af1",
+    "url": "/sanjuan/static/media/professional.02cd01fc.jpg"
   },
   {
     "revision": "93142de77a40386fa3ffc92998fe4a62",
