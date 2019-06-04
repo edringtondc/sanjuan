@@ -5,12 +5,14 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        color: white;
+        color: black;
         width: 100%;
         /* background-color: rgba(0,0,0,0.2); */
         text-align: center;
         height: auto;
         display: flex;
+        font-family: "Didact Gothic", sans-serif;
+
    
      
         
@@ -21,7 +23,7 @@
 
 
     .visit {
-        background-color: #286933;
+        background-color: rgb(230, 253, 250);
         padding: 1rem;
         width: 50%;
         text-align: center;

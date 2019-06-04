@@ -5,7 +5,7 @@ import Form from "../Form/Form"
 const Contact = () => {
 
   return (
-    <div className={classes.scheduleBlock}>
+    <div className={classes.contactBlock}>
 
       <div className={classes.textBlock}>
      

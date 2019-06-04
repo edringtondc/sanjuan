@@ -1,6 +1,6 @@
 
-.scheduleBlock {
-    background: url("../../assets/images/forest.jpg") no-repeat center center fixed;
+.contactBlock {
+    background: url("../../assets/images/balancesmall.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -11,6 +11,8 @@
     text-align: center;
     height: auto;
     display: flex;
+    font-family: "Didact Gothic", sans-serif;
+
  
     
 }
@@ -24,6 +26,8 @@
     width: 100%;
     background-color: rgba(0,0,0,0.5);
     padding: 3rem 3rem;
+    font-family: "Didact Gothic", sans-serif;
+
   
 
 }

@@ -4,20 +4,22 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;  */
-    background-color: #286933;
+    background-color: rgb(230, 253, 250);
     /* opacity: 0.7; */
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    color: white;
+    color: black;
     font-size: large;
+    font-family: "Didact Gothic", sans-serif;
+
 }
 
 .wrapper {
        
-    background-color: #286933;
+    background-color: #bec3d6;
     color: white;
     /* background-color: rgba(0,0,0,0.2); */
     text-align: center;

@@ -1,9 +1,21 @@
 .footer {
-    background-color: #286933;
+    background-color: rgb(230, 253, 250);
     height: auto;
-    color: white;
+    color: black;
     display: flex;
     justify-content: space-around;
+    font-family: "Didact Gothic", sans-serif;
+    list-style-type: none;
+    text-align: center;
+}
+.info {
+    list-style-type: none;
+}
+.hours {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+   
 }
 
 /* @media(min-width: 640px) {

@@ -15,6 +15,7 @@ class TestimonialCarousel extends Component {
         <div className={classes.Wrapper}>
       <Slider {...settings}>
         <div>
+          <p className={classes.Title}>Words from Our Clients</p>
           <p className={classes.Quote}>"I love the way that Dr. Tori adjusts me! And she listens to everything I say to make sure she gives me the best care possible!"</p>
           <p className={classes.Patient}>-Elisabeth E.</p>
         </div>

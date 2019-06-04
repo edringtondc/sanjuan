@@ -2,6 +2,9 @@ import React from 'react';
 
 import Home  from "./pages/Home/Home";
 import  Team  from "./pages/Team/Team";
+// import  Contact  from "./components/Contact/Contact";
+// import  Contact  from "./components/Contact/Contact";
+
 import  Treatments  from "./pages/Treatments/Treatments";
 import { Route, Switch, Redirect } from "react-router-dom";
 import Toolbar from "./components/Navigation/Toolbar/Toolbar";
@@ -25,12 +28,8 @@ export const Routes = () => {
           </Route>
           <Route exact path="/Team" component={Team} />
           <Route exact path="/Treatments"  component={Treatments}/>
-          <Route exact path="/Mainmenu"  component={MainMenu}/>
-
+       
         </Switch>
-
-
-
 
       </div>
     );
