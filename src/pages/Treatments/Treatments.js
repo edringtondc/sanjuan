@@ -3,6 +3,7 @@ import TreatmentItem from "./TreatmentItem/TreatmentItem";
 import classes from './treatments.module.css';
 import Footer from "../../components/Footer/Footer";
 // import TreatmentToolbar from "./TreatmentToolbar/TreatmentToolbar";
+import Toolbar from "../../components/Navigation/Toolbar/Toolbar.js"
 
 
 
@@ -66,10 +67,11 @@ const Treatments = () => {
 
     return (
         <div>
+            <div className={classes.Space}></div>
+            <Toolbar/>
             <div className={classes.Treatments}>
-                <div className={classes.Banner}>
-
-                   
+            <div className={classes.Banner}>
+                    <h1>Treatments</h1>
                 </div>
                 {/* <TreatmentToolbar treatments={treatments} /> */}
                 

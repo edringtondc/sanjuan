@@ -1,9 +1,15 @@
 import React from "react";
 import Layout from "../../Layout/Layout";
+import Toolbar from "../../components/Navigation/Toolbar/Toolbar.js"
+
 
 const Home = () => {
     return (
-        <Layout/>
+        <div>
+            <Toolbar/>
+            <Layout />
+        </div>
+
     )
 }
 

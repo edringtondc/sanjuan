@@ -1,7 +1,17 @@
 .Title {
-    font-size: 5rem;
+    font-size: 1.5rem;
     z-index: 99;
+    font-family: "Didact Gothic", sans-serif;
 }
+
+.Info {
+    color: gray;
+}
+.Space {
+    height: 100px;
+}
+
+
 
 .Banner {
     text-align: center;
@@ -19,8 +29,21 @@
     align-items: center;
     justify-content: center;
     font-family: "Didact Gothic", sans-serif;
-    /* background-position: top left; */
 }
-.Space {
-    height: 100px;
+
+.Wrapper {
+
+    margin: 1rem 1rem 0 1rem;
+    font-family: "Didact Gothic", sans-serif;
 }
+
+.Section {
+    display: flex;
+    padding: 2rem;
+    margin: 2rem 2rem;
+    justify-content: space-between;
+}
+.Pain {
+    height: 20rem;
+}
+

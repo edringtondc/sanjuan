@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import TeamMember from "./TeamMember/TeamMember"
 import classes from "./team.module.css";
 import Footer from "../../components/Footer/Footer";
+import Toolbar from "../../components/Navigation/Toolbar/Toolbar.js"
+
 
 class Team extends Component {
   
@@ -50,6 +52,8 @@ render() {
 
     return (
         <div>
+            <Toolbar/>
+            <div>
             <div className={classes.Team}>
                 <div className={classes.Banner}>
                     <h1>Our Practitioners</h1>
@@ -64,6 +68,8 @@ render() {
 
             </div>
             <Footer />
+            </div>
+           
         </div>
     )
 }
