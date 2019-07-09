@@ -2,15 +2,64 @@
     background-color: rgb(230, 253, 250);
     height: auto;
     color: black;
-    display: flex;
+    
     justify-content: space-around;
     font-family: "Didact Gothic", sans-serif;
     list-style-type: none;
     text-align: center;
+    border-top: solid lightgray 1px;
 }
 .info {
     list-style-type: none;
+
+
 }
+.title {
+ font-size: large;
+ font-weight: bold;
+}
+.homeLink {
+    font-size: large;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+.homeLink:hover{
+    color: blue;
+    transform: scale(1.1);
+}
+
+.FB {
+    height: 2rem;
+}
+.ScheduleLink {
+   
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    color: black;
+    margin: 1rem;
+    padding: .2rem 0;
+}
+.ScheduleLink, a {
+    text-decoration: none;
+    color: black;
+}
+.ScheduleLink:hover {
+    background-color: lightskyblue;
+    transform: scale(1.1);
+
+ 
+  }
+.Byline {
+    font-size: small;
+    flex-direction: column;
+
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .hours {
     list-style-type: none;
     text-align: center;
