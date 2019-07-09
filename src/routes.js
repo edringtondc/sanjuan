@@ -3,6 +3,8 @@ import React from 'react';
 import Home  from "./pages/Home/Home";
 import  Team  from "./pages/Team/Team";
 import AutoAccidents from './pages/AutoAccidents/AutoAccidents'
+import  Rates  from "./pages/Rates/Rates";
+
 // import  Contact  from "./components/Contact/Contact";
 // import  Contact  from "./components/Contact/Contact";
 
@@ -29,8 +31,11 @@ export const Routes = () => {
             <Redirect to="/Home" />
           </Route>
           <Route exact path="/Team" component={Team} />
+          <Route exact path="/Rates" component={Rates} />
           <Route exact path="/Treatments"  component={Treatments}/>
           <Route exact path="/AutoAccidents"  component={AutoAccidents}/>
+          <Route exact path="/Home/Contact" component={Home} />
+          <Route exact path="/Home/Visit" component={Home} />
          
 
        

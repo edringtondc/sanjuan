@@ -6,7 +6,7 @@ const featuredServices = () => {
 
     return (
         <div className={classes.featured}>
-           SCHEDULE NOW
+           SCHEDULE NOW adklsjflaisjdf
         </div>
     )
 }

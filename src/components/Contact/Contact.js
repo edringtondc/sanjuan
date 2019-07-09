@@ -5,9 +5,16 @@ import Form from "../Form/Form"
 const Contact = () => {
 
   return (
-    <div className={classes.contactBlock}>
+ 
+   
+    <div className={classes.contactBlock} id="Contact">
+      
+       
+      
+
 
       <div className={classes.textBlock}>
+        <h2>Contact Us</h2>
      
         <Form/>
         
@@ -20,6 +27,7 @@ const Contact = () => {
 
 
     </div>
+
   )
 }
 
