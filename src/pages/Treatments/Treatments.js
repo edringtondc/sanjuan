@@ -67,7 +67,7 @@ const Treatments = () => {
 
     return (
         <div>
-            <div className={classes.Space}></div>
+            <div className={classes.Space} id="space"></div>
             <Toolbar/>
             <div className={classes.Treatments}>
             <div className={classes.Banner}>

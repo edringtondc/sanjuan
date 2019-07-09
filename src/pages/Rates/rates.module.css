@@ -2,6 +2,7 @@
     font-size: 1.5rem;
     z-index: 99;
     font-family: "Didact Gothic", sans-serif;
+    text-align: center;
 }
 
 .Info {
@@ -10,12 +11,57 @@
 .Space {
     height: 100px;
 }
+.Bold {
+    font-weight: bold;
+    font-size: medium;
+}
+.Rates {
+    list-style: none;
+    text-align: left;
+  
+}
 
+.Subtitle {
+    text-align: center;
+    color: maroon;
+}
+.RatesUL {
+    color: gray;
+    list-style: none;
+    text-align:center;
+    margin-top: 0px;
+}
+.topRow {
+    min-height: 22rem;
 
+}
+.secondRow {
+    min-height: 22rem;
+}
+.Initial {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.Initial, img {
+    height: 250px;
+ 
+    
+}
+
+.Regular {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Regular, img {
+    height: 200px;
+
+}
 
 .Banner {
     text-align: center;
-    background: url("../../assets/images/columbine6.jpg");
+    background: url("../../assets/images/bluebells.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -43,10 +89,11 @@
 }
 
 .Section {
-    display: flex;
+   
     padding: 2rem;
-    margin: 2rem 2rem;
-    justify-content: space-between;
+    margin: 0rem 2rem 2rem 0rem;
+    text-align: center;
+
 }
 .Pain {
     height: 20rem;

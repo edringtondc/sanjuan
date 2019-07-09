@@ -17,7 +17,7 @@ const menu = () => {
      <div className={classes.Wrapper}>
   <div className={classes.menuBlock} >
 
-<MenuItems item="Team Members" id="first" Link="/Team" icon={teamIcon} />
+<MenuItems item="Our Practitioners" id="first" Link="/Team" icon={teamIcon} />
 <MenuItems item="Treatments" id="middle" Link="/Treatments" icon={spaIcon} />
 <MenuItems item="Auto Accidents" id="third"  Link="/AutoAccidents" icon={carIcon} />
 

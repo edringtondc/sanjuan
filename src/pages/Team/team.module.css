@@ -1,6 +1,6 @@
 .Team {
    
-
+        margin: 0 5rem 0 5rem;
 
 }
 
@@ -11,7 +11,7 @@
 
 .Banner {
         text-align: center;
-        background: url("../../assets/images/mountains.jpg");
+        background: url("../../assets/images/orangetulips.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -25,4 +25,11 @@
         align-items: center;
         justify-content: center;
         font-family: "Didact Gothic", sans-serif;
+        font-size: xx-large;
+        /* background-position: top left; */
 }
+
+.Space {
+        height: 100px;
+    }
+    

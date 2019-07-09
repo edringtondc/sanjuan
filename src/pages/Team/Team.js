@@ -54,10 +54,11 @@ render() {
         <div>
             <Toolbar/>
             <div>
-            <div className={classes.Team}>
+            <div className={classes.Space}></div>
                 <div className={classes.Banner}>
                     <h1>Our Practitioners</h1>
                 </div>
+                <div className={classes.Team}>
                 {Team.map(teamMember => {
                     return (
                         <TeamMember bio={teamMember.bio} practitioner={teamMember.practitioner} />

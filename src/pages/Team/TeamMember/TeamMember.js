@@ -11,7 +11,7 @@ const TeamMember = (props) => {
 
             <div className={classes.TeamMember}>
 
-                <img src={headshot} className={classes.headshot}></img>
+                {/* <img src={headshot} className={classes.headshot}></img> */}
                 <div className={classes.Bio}>
 
                     <h3 className={classes.Practitioner}>{props.practitioner}</h3>

@@ -12,6 +12,7 @@
     box-sizing: border-box;
     z-index: 90;
     color: black;
+    border-bottom: solid lightgray 1px;
 }
 
 .Toolbar nav {

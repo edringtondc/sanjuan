@@ -18,13 +18,15 @@
 
 .Bio {
     padding: 0.5rem;
+    color: gray;
    
 }
 
 .Practitioner {
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
     margin-top: 0px;
+    color: black;
     
 }
 
