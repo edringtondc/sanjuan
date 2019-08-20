@@ -28,8 +28,9 @@ class Layout extends Component {
                 <ScheduleNow/>
                 <MainMenu/>
                 <Testimonials/>
-                <Visit />
                 <Contact/>
+                <Visit />
+            
       
               
                 <Footer/>

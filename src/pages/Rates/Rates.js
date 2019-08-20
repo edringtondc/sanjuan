@@ -3,7 +3,8 @@ import React from "react";
 
 import KidPic from "../../assets/images/kids.jpg"
 
-import RatesPic from "../../assets/images/Darrinsroom.webp"
+import RatesPic from "../../assets/images/officePics/adjusting1.JPG"
+import RatesPic2 from "../../assets/images/officePics/waitingRoom.JPG"
 import classes from './rates.module.css';
 import Footer from "../../components/Footer/Footer";
 import Toolbar from "../../components/Navigation/Toolbar/Toolbar.js"
@@ -61,7 +62,7 @@ const Rates = () => {
                         <h3 className={classes.Title}>Regular Treatment Rates</h3>
                         <p className={classes.Subtitle}>We offer prepaid packages offering a 20% discount</p>
                         <div className={classes.Regular}>
-                            <img src={RatesPic} alt="another clinic pic" />
+                            <img src={RatesPic2} alt="Picture of the Waiting Room" />
 
                             <ul className={classes.RatesUL}>
 

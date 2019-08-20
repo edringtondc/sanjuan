@@ -7,7 +7,6 @@
     color: white;
     width: 100%;
     /* background-color: rgba(0,0,0,0.2); */
-    text-align: center;
     height: auto;
     min-height: 500px;
     display: flex;
@@ -15,9 +14,22 @@
  
 }
 
+
 .textBlock {
     width: 50%;
     background-color: rgba(0,0,0,0.4);
     padding: 3rem 3rem;
 }
 
+.description {
+    text-align: left;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.scheduleButton {
+    text-align: center;
+}

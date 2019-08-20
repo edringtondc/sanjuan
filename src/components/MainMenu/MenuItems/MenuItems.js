@@ -9,7 +9,7 @@ const menuItem = props => {
    
         <div className={classes.item}>
           <a href={props.Link}><img className={classes.Icon} src={props.icon} alt={props.item}/></a> 
-            <p> {props.item}</p> 
+            <p className={classes.title}> {props.item}</p> 
         </div>
     )
 }

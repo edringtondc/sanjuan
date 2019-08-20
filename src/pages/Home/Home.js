@@ -18,8 +18,9 @@ const Home = () => {
             <Banner title= "San Juan Chiropractic" />
             <MainMenu></MainMenu>
             <ScheduleNow/>
-            <Contact/>
             <Visit> </Visit>
+            <Contact/>
+          
             <Footer></Footer>
 
             {/* <Layout /> */}
