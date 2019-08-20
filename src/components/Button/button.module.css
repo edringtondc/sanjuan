@@ -19,4 +19,11 @@
 
  
   }
+  @media (max-width: 795px){
+    .button {
+      width: 90%;
+      
+     
+    }
+  }
 

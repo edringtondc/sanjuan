@@ -9,21 +9,21 @@ import ScheduleNow from "../../components/ScheduleNow/ScheduleNow"
 import Visit from "../../components/Visit/Visit"
 import Footer from "../../components/Footer/Footer"
 import MainMenu from "../../components/MainMenu/MainMenu"
-
+import classes from "./Home.module.css";
 
 const Home = () => {
     return (
-        <div id="top">
+        <div id="top" className={classes.home}>
             <Toolbar/>
             <Banner title= "San Juan Chiropractic" />
             <MainMenu></MainMenu>
             <ScheduleNow/>
-            <Visit> </Visit>
+            <Visit/>
             <Contact/>
           
-            <Footer></Footer>
+            <Footer/>
 
-            {/* <Layout /> */}
+    
         </div>
 
     )

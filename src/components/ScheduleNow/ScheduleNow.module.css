@@ -33,3 +33,17 @@
 .scheduleButton {
     text-align: center;
 }
+
+@media (max-width: 1024px) {
+    .textBlock {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      
+  
+    }
+    .scheduleButton {
+        width: 100%;
+    }
+}

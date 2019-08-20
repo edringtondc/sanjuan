@@ -19,4 +19,30 @@
 
 .logo {
     height: 30rem;
+    
+}
+
+@media(max-width: 320px) {
+    .logo {
+        height: 20rem;
+    }
+   .Banner {
+       font-size: large;
+   }
+}
+@media(max-width: 375px) {
+    .logo {
+        height: 20rem;
+    }
+   .Banner {
+       font-size: large;
+   }
+}
+@media(max-width: 414px) {
+    .logo {
+        height: 20rem;
+    }
+   .Banner {
+       font-size: large;
+   }
 }

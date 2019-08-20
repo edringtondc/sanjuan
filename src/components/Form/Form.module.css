@@ -60,3 +60,34 @@ input[type=text], select {
     justify-content: center;
     align-items: center;
   }
+
+  @media(max-width: 795px){
+    input[type=text], select {
+      width: 90%;
+  
+      
+    }
+    input[type=email], select {
+      width: 90%;
+      
+    }
+    
+    input[type=submit] {
+      width: 90%;
+     
+    }
+    
+    
+    textarea {
+      width: 90%;
+    
+    }
+    
+    div.container {
+    
+      padding: 0;
+     
+    }
+  
+  
+  }
