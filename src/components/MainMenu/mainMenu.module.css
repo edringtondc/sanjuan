@@ -48,3 +48,9 @@
         display: block;
     }
 }
+
+@media (min-width: 568px) and (orientation: landscape) {
+    .menuBlock {
+        display: flex;
+    }
+}

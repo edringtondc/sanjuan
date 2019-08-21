@@ -46,3 +46,11 @@
        font-size: large;
    }
 }
+@media (min-width: 568px) and (orientation: landscape) {
+    .logo {
+        height: 20rem;
+    }
+   .Banner {
+       font-size: large;
+   }
+}

@@ -21,4 +21,12 @@
   }
 }
 
+@media(max-width: 568px){
+  .Icon {
+    height: 100px;
+   
+
+}
+}
+
 
