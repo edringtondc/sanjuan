@@ -102,3 +102,16 @@
     height: 100px;
 }
 
+
+@media (max-width: 360px) {
+    .Initial {
+        display: block;
+    
+        
+    }
+    .Banner {
+        display: block;
+        
+    }
+   
+}

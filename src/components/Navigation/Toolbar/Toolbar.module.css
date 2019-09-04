@@ -26,5 +26,10 @@
 @media (max-width: 500px){
     .DesktopOnly {
         display: none;
+        
     }
+}
+
+.DesktopOnly {
+    color: orange;
 }
