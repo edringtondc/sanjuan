@@ -7,6 +7,7 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    
   }
   input[type=email], select {
     width: 50%;
@@ -20,7 +21,7 @@ input[type=text], select {
   
   input[type=submit] {
     width: 50%;
-    background-color: #4054a5;
+    background-color: lightskyblue;
     color: white;
     padding: 12px 20px;
     margin: 8px 26px;
@@ -28,10 +29,11 @@ input[type=text], select {
     border-radius: 4px;
     cursor: pointer;
     display: block;
+    font-size: medium;
   }
   
   input[type=submit]:hover {
-    background-color: #6a83e6;
+    background-color: skyblue;
 
  
   }
@@ -57,4 +59,35 @@ input[type=text], select {
     text-align: center;
     justify-content: center;
     align-items: center;
+  }
+
+  @media(max-width: 795px){
+    input[type=text], select {
+      width: 90%;
+  
+      
+    }
+    input[type=email], select {
+      width: 90%;
+      
+    }
+    
+    input[type=submit] {
+      width: 90%;
+     
+    }
+    
+    
+    textarea {
+      width: 90%;
+    
+    }
+    
+    div.container {
+    
+      padding: 0;
+     
+    }
+  
+  
   }

@@ -1,17 +1,85 @@
 .footer {
-    background-color: #286933;
+    background-color: rgb(230, 253, 250);
     height: auto;
-    color: white;
-    display: flex;
+    color: black;
     justify-content: space-around;
+    font-family: "Didact Gothic", sans-serif;
+    list-style-type: none;
+    text-align: center;
+    border-top: solid lightgray 1px;
+    padding: 1rem;
 }
 
-/* @media(min-width: 640px) {
+.info {
+    list-style-type: none;
+    text-align: center;
+}
+
+.title {
+    font-size: large;
+    font-weight: bold;
+}
+
+.homeLink {
+    font-size: large;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.homeLink:hover {
+    color: blue;
+    transform: scale(1.1);
+}
+
+.FB {
+    height: 2rem;
+}
+
+.ScheduleLink {
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    color: black;
+    margin: 1rem;
+    padding: 0;
+}
+
+.ScheduleLink, a {
+    text-decoration: none;
+    color: black;
+}
+
+.ScheduleLink:hover {
+    background-color: lightskyblue;
+    transform: scale(1.1);
+}
+
+.Byline {
+    font-size: small;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hours {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+@media(max-width: 795px) {
+    .row {
+        flex-direction: column;
+    }
+  
+
     .footer {
-        background-color: orange;
+        align-items: center;
         display: flex;
-        
+        flex-direction: column;
     }
 
-
-} */
+}

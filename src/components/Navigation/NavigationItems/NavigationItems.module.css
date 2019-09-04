@@ -6,6 +6,8 @@
     flex-flow: column;
     align-items: center;
     height: 100%;
+    font-family: "Didact Gothic", sans-serif;
+
     
 
 }
@@ -16,3 +18,4 @@
 
     }
 }
+

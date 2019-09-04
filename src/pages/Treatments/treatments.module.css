@@ -1,0 +1,27 @@
+.Title {
+    font-size: 5rem;
+    z-index: 99;
+}
+
+.Banner {
+    text-align: center;
+    background: url("../../assets/images/tulips.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    padding-top: 3rem;
+    margin: 0;
+    z-index: 1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: xx-large;
+}
+.Space {
+    height: 100px;
+}

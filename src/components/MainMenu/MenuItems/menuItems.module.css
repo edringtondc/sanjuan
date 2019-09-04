@@ -11,3 +11,22 @@
 
 }
 
+
+@media(max-width: 795px){
+  .Icon {
+    margin: 1rem;
+  }
+  .title {
+    padding: 0;
+  }
+}
+
+@media(max-width: 568px){
+  .Icon {
+    height: 100px;
+   
+
+}
+}
+
+

@@ -10,6 +10,7 @@ import Footer from "../components/Footer/Footer"
 import MainMenu from "../components/MainMenu/MainMenu"
 
 
+
 import classes from "./Layout.css"
 
 
@@ -19,15 +20,17 @@ class Layout extends Component {
     render() {
         return (
             <Aux className={classes.Body}>
-                <Toolbar/>
+              
 
             
-                <Main/>
-                <MainMenu/>
+             
+         
                 <ScheduleNow/>
+                <MainMenu/>
                 <Testimonials/>
-                <Visit />
                 <Contact/>
+                <Visit />
+            
       
               
                 <Footer/>

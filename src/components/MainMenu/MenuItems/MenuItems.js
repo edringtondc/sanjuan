@@ -8,8 +8,8 @@ const menuItem = props => {
     return (
    
         <div className={classes.item}>
-          <a href="/"><img className={classes.Icon} src={props.icon} alt={props.item}/></a> 
-            <p> {props.item}</p> 
+          <a href={props.Link}><img className={classes.Icon} src={props.icon} alt={props.item}/></a> 
+            <p className={classes.title}> {props.item}</p> 
         </div>
     )
 }

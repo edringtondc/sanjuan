@@ -1,61 +1,83 @@
+.wrapper {
+    background: url("../../assets/images/poppys.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
+    width: 100%;
+    /* background-color: rgba(0,0,0,0.2); */
+    text-align: center;
+    height: auto;
+    display: flex;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+.empty {
+    width: 50%;
+}
+
+.visit {
+    background-color: rgb(230, 253, 250);
+    padding: 1rem 0;
+    width: 50%;
+    text-align: center;
+}
+
+.hours {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.phone {
+    font-size: large;
+}
+
+.hoursTitle {
+    font-size: x-large;
+    margin-top: 0;
+}
+
+.info {
+    text-align: center;
+}
+
+.textBlock {
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 3rem 3rem;
+}
+
+.map {
+    max-width: 800px;
+    max-height: 400px;
+    border: 0;
+}
+
+@media (max-width: 795px) {
 
     .wrapper {
-        background: url("../../assets/images/mountains.jpg") no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        color: white;
-        width: 100%;
-        /* background-color: rgba(0,0,0,0.2); */
-        text-align: center;
-        height: auto;
-        display: flex;
-   
-     
-        
+        display: block;
     }
-    .empty {
-        width: 50%;
-    }
-
-
     .visit {
-        background-color: #286933;
-        padding: 1rem;
-        width: 50%;
-        text-align: center;
-        
-    }
-    .hours {
-        list-style-type: none;
-        text-align: center;
        
-    }
-
-    .hoursTitle {
-  
-        font-size: x-large;
-        margin-top: 0;
-    }
-  
-    
-    /* img {
-        height: 300px;
-        width: auto;
-    } */
-    
-    .textBlock {
-        width: 90%;
-        background-color: rgba(0,0,0,0.4);
-        padding: 3rem 3rem;
-       
+        width: 100%;
         
-    
+    } 
+}
+@media (max-width: 320px) {
+    .map {
+        display: none;
     }
-    
-    .iframe {
-        width: 600px;
-        height: 450px;
-        border: 0;
+}
+@media (max-width: 375px) {
+    .map {
+        display: none;
     }
+}
+@media (max-width: 414px) {
+    .map {
+        display: none;
+    }
+}
